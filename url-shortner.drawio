@@ -7,8 +7,41 @@
         <mxCell id="XjijE6OIwFC7-dDBtSXK-2" value="Design a URL Shortner Service&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="60" y="40" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XjijE6OIwFC7-dDBtSXK-3" value="&lt;b&gt;Need to ask thos questions&lt;/b&gt;&lt;div&gt;1) Confirm your understading of the system. Ans : okay&lt;/div&gt;&lt;div&gt;2) How url short need to be? Ans : as short as possible&lt;/div&gt;&lt;div&gt;3) How long should we reserve a url? Ans : 10 years&lt;/div&gt;&lt;div&gt;4) How many url per day?&amp;nbsp; Ans : 10 milion&lt;/div&gt;&lt;div&gt;5) Do we need login? Ans : yes/no&lt;/div&gt;&lt;div&gt;6) Analytics? Ans : yes/No&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Back on the envelop:&amp;nbsp; Hard disk needed&amp;nbsp;&lt;/div&gt;&lt;div&gt;10 million * 365 * 10 = 36500 m = 36.5 B * 100 byte = 3650 B byte =&amp;nbsp;&amp;nbsp;3,650,000,000,000 Byte = 3650,000,000 Kilo Byte,&lt;/div&gt;&lt;div&gt;= 3650, 000 M Byte = 3650 G byte =&amp;nbsp; 3.56 TB&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="81" width="650" height="199" as="geometry" />
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-3" value="&lt;b&gt;Step 1 : Need to ask thos questions&lt;/b&gt;&lt;div&gt;1) Confirm your understading of the system. Ans : okay&lt;/div&gt;&lt;div&gt;2) How url short need to be? Ans : as short as possible&lt;/div&gt;&lt;div&gt;3) How long should we reserve a url? Ans : 10 years&lt;/div&gt;&lt;div&gt;4) How many url per day?&amp;nbsp; Ans : 10 milion&lt;/div&gt;&lt;div&gt;5) Do we need login? Ans : yes/no&lt;/div&gt;&lt;div&gt;6) Analytics? Ans : yes/No&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="81" width="650" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-5" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Step2: Back on the envelop:&amp;nbsp; Hard disk needed&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;10 million * 365 * 10 = 36500 m = 36.5 B * 100 byte = 3650 B byte =&amp;nbsp;&amp;nbsp;3,650,000,000,000 Byte = 3650,000,000 Kilo Byte,&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;= 3650, 000 M Byte = 3650 G byte =&amp;nbsp; 3.56 TB&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="650" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-6" value="Step 3: Desing API Endpoint&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-7" value="API List" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="330" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-8" value="POST : api/v1/create (longurl) -&amp;gt; shorturl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="XjijE6OIwFC7-dDBtSXK-7">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-9" value="GET shorturl -&amp;gt; 301/302 , send redirect url in header as response" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="XjijE6OIwFC7-dDBtSXK-7">
+          <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-11" value="We can use temporary(301) or permanent(302) redirect&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="390" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-12" value="Step 4 : Database Design (Key Value pair)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-13" value="key Value 1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-17" value="Short url -&amp;gt; Long Url&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XjijE6OIwFC7-dDBtSXK-13">
+          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-18" value="key Value 2" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-19" value="Long url -&amp;gt; Short&lt;div&gt;&amp;nbsp;Url&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XjijE6OIwFC7-dDBtSXK-18">
+          <mxGeometry y="30" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
