@@ -1,9 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
-  <diagram name="Page-1" id="0Y-sCsEEgywu30MbAkM8">
-    <mxGraphModel>
+  <diagram name="Key Value Store" id="0Y-sCsEEgywu30MbAkM8">
+    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIJ6LjRNpunLngv8_PbZ-1" target="HIJ6LjRNpunLngv8_PbZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="349.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-1" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="19" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-2" value="Design a key value store" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-3" value="Application" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="314.5" y="170" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIJ6LjRNpunLngv8_PbZ-4" target="HIJ6LjRNpunLngv8_PbZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-4" value="Key" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HIJ6LjRNpunLngv8_PbZ-5" target="HIJ6LjRNpunLngv8_PbZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-5" value="Hash Function" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-6" value="Hash Value" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-11" value="API List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-12" value="get&amp;nbsp; &amp;nbsp; &amp;nbsp; (Key)-&amp;gt; value" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HIJ6LjRNpunLngv8_PbZ-11">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-13" value="put&amp;nbsp; &amp;nbsp; &amp;nbsp;Key value" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HIJ6LjRNpunLngv8_PbZ-11">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-15" value="Key --&amp;gt; Value" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="260" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-17" value="What is the problem of this service&lt;div&gt;1)&amp;nbsp; Single point of failure&lt;/div&gt;&lt;div&gt;2) Vertical scaleable , can&#39;t do horizontal&amp;nbsp; scaling&lt;/div&gt;&lt;div&gt;if i want to keep it vertical sacling , then we can implement FIFO or LRU cache implementation&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="320" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-18" value="Step 1 : Simple Design Vertical Scaling&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-19" value="Step 2 : Complex Design Horizontal scaling" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-20" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;" vertex="1" parent="1">
+          <mxGeometry x="359" y="870" width="19" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
