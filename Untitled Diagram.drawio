@@ -96,6 +96,12 @@
         <mxCell id="HIJ6LjRNpunLngv8_PbZ-34" value="Key --&amp;gt; Hash (key) -&amp;gt; Integer Key&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Integer key %N (number of server)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="670" width="210" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-36" value="Consistent Hashing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-37" value="Actor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330.25" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
