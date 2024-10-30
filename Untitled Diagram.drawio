@@ -58,7 +58,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HIJ6LjRNpunLngv8_PbZ-20" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;" vertex="1" parent="1">
-          <mxGeometry x="350.5" y="840" width="19" height="50" as="geometry" />
+          <mxGeometry x="350.5" y="780" width="19.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HIJ6LjRNpunLngv8_PbZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIJ6LjRNpunLngv8_PbZ-21" target="HIJ6LjRNpunLngv8_PbZ-28">
           <mxGeometry relative="1" as="geometry" />
@@ -94,7 +94,7 @@
           <mxGeometry x="480" y="560" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HIJ6LjRNpunLngv8_PbZ-34" value="Key --&amp;gt; Hash (key) -&amp;gt; Integer Key&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Integer key %N (number of server)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="97.75" y="750" width="214.5" height="90" as="geometry" />
+          <mxGeometry x="520" y="670" width="210" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
