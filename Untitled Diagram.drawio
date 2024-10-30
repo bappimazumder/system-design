@@ -54,8 +54,47 @@
         <mxCell id="HIJ6LjRNpunLngv8_PbZ-19" value="Step 2 : Complex Design Horizontal scaling" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="80" y="480" width="270" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIJ6LjRNpunLngv8_PbZ-20" target="HIJ6LjRNpunLngv8_PbZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HIJ6LjRNpunLngv8_PbZ-20" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;" vertex="1" parent="1">
-          <mxGeometry x="359" y="870" width="19" height="50" as="geometry" />
+          <mxGeometry x="350.5" y="840" width="19" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIJ6LjRNpunLngv8_PbZ-21" target="HIJ6LjRNpunLngv8_PbZ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIJ6LjRNpunLngv8_PbZ-21" target="HIJ6LjRNpunLngv8_PbZ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIJ6LjRNpunLngv8_PbZ-21" target="HIJ6LjRNpunLngv8_PbZ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIJ6LjRNpunLngv8_PbZ-21" target="HIJ6LjRNpunLngv8_PbZ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIJ6LjRNpunLngv8_PbZ-21" target="HIJ6LjRNpunLngv8_PbZ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-21" value="Application Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-24" value="KV1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="560" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-25" value="KV2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="560" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-26" value="KV3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="319.5" y="560" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-27" value="KV4" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="405" y="560" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-28" value="KV5" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="560" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HIJ6LjRNpunLngv8_PbZ-34" value="Key --&amp;gt; Hash (key) -&amp;gt; Integer Key&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Integer key %N (number of server)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="97.75" y="750" width="214.5" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
