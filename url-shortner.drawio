@@ -25,7 +25,7 @@
         <mxCell id="XjijE6OIwFC7-dDBtSXK-9" value="GET shorturl -&amp;gt; 301/302 , send redirect url in header as response" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" parent="XjijE6OIwFC7-dDBtSXK-7" vertex="1">
           <mxGeometry y="60" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XjijE6OIwFC7-dDBtSXK-11" value="We can use temporary(301) or permanent(302) redirect&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="XjijE6OIwFC7-dDBtSXK-11" value="We can use temporary(302) or permanent(301) redirect&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="390" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XjijE6OIwFC7-dDBtSXK-12" value="Step 4 : Database Design (Key Value pair)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
