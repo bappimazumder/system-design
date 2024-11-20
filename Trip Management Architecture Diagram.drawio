@@ -41,7 +41,7 @@
           <mxGeometry x="700" y="305" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vskYOqWkcnwVmKQwBKcq-13" value="Notification Service" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="700" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="417" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vskYOqWkcnwVmKQwBKcq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="vskYOqWkcnwVmKQwBKcq-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -177,7 +177,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t34tT2cTHQwuIw1zyMxt-1" value="Trip Status&amp;nbsp;" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="t34tT2cTHQwuIw1zyMxt-1" value="Trip Status&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="291" as="sourcePoint" />
             <mxPoint x="588" y="320" as="targetPoint" />
@@ -188,10 +188,10 @@
         </mxCell>
         <mxCell id="t34tT2cTHQwuIw1zyMxt-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="619" y="374" as="sourcePoint" />
-            <mxPoint x="710" y="400" as="targetPoint" />
+            <mxPoint x="619" y="377" as="sourcePoint" />
+            <mxPoint x="710" y="413" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="710" y="374" />
+              <mxPoint x="710" y="377" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -247,8 +247,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t34tT2cTHQwuIw1zyMxt-16" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="t34tT2cTHQwuIw1zyMxt-15">
+        <mxCell id="t34tT2cTHQwuIw1zyMxt-16" value="Log&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="t34tT2cTHQwuIw1zyMxt-15">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t34tT2cTHQwuIw1zyMxt-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="vskYOqWkcnwVmKQwBKcq-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
