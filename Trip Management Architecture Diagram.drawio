@@ -259,6 +259,12 @@
         <mxCell id="bSTxt-o9gCNaq9EwvQ-2-1" value="Messege&lt;div&gt;Queue&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="383" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bSTxt-o9gCNaq9EwvQ-2-3" value="Cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="582" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="bSTxt-o9gCNaq9EwvQ-2-4" value="Cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="238.1" y="72" width="50" height="18" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
