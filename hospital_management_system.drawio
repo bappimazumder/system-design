@@ -26,7 +26,7 @@
             <mxPoint x="350" y="252" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s4P5NHIdHEnrwuTgCg9F-4" value="User Management Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="s4P5NHIdHEnrwuTgCg9F-4" value="User Auth Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="230" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s4P5NHIdHEnrwuTgCg9F-5" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" parent="1" vertex="1">
