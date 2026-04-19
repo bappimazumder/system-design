@@ -41,8 +41,8 @@
         <mxCell id="WqIeL6BKmyeu4yCINvwK-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="URL Frontier" vertex="1">
           <mxGeometry height="80" width="80" x="240" y="425" as="geometry" />
         </mxCell>
-        <mxCell id="WqIeL6BKmyeu4yCINvwK-11" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Requirements&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1) Is crawler deal with only html ?&lt;/p&gt;" vertex="1">
-          <mxGeometry height="120" width="260" x="50" y="270" as="geometry" />
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-11" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Requirements&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1) Is crawler deal with only html ?&lt;br&gt;2) What Kind of web crawler is it ? local site&amp;nbsp;&lt;br&gt;or international site or specific subject?&lt;/p&gt;" vertex="1">
+          <mxGeometry height="130" width="270" x="50" y="270" as="geometry" />
         </mxCell>
         <mxCell id="WqIeL6BKmyeu4yCINvwK-18" edge="1" parent="1" source="WqIeL6BKmyeu4yCINvwK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="WqIeL6BKmyeu4yCINvwK-17">
           <mxGeometry relative="1" as="geometry" />
@@ -93,6 +93,24 @@
         </mxCell>
         <mxCell id="WqIeL6BKmyeu4yCINvwK-31" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Check Duplicate" vertex="1">
           <mxGeometry height="70" width="80" x="760" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-32" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Worker 1&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="80" x="200" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-33" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Worker 2&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="80" x="320" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-34" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Worker 3&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="80" x="450" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-35" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="190" width="450" x="160" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Html Downloader" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;1) Multiple thread e run kora&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;2) Ekta Web site jeno ekta Worker node jai&amp;nbsp;&lt;br&gt;3) thread e sleep add kora&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;4) Robot.txt ke respect kora&lt;br&gt;- allow and disallow follow kora&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="300" x="190" y="700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
