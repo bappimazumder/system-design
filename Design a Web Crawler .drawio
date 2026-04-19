@@ -4,6 +4,75 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Crawler" vertex="1">
+          <mxGeometry height="80" width="80" x="280" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="List Of Urls" vertex="1">
+          <mxGeometry height="30" width="80" x="140" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-3" edge="1" parent="1" source="WqIeL6BKmyeu4yCINvwK-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="210" as="sourcePoint" />
+            <mxPoint x="280" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="DB" vertex="1">
+          <mxGeometry height="60" width="50" x="440" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-5" edge="1" parent="1" source="WqIeL6BKmyeu4yCINvwK-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="210" as="sourcePoint" />
+            <mxPoint x="430" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-10" edge="1" parent="1" source="WqIeL6BKmyeu4yCINvwK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="List of Seed URL" vertex="1">
+          <mxGeometry height="50" width="120" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-14" edge="1" parent="1" source="WqIeL6BKmyeu4yCINvwK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="URL Frontier" vertex="1">
+          <mxGeometry height="80" width="80" x="240" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-11" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Requirements&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1) Is crawler deal with only html ?&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="260" x="50" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-18" edge="1" parent="1" source="WqIeL6BKmyeu4yCINvwK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="WqIeL6BKmyeu4yCINvwK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-22" edge="1" parent="1" source="WqIeL6BKmyeu4yCINvwK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WqIeL6BKmyeu4yCINvwK-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HTML Downloader" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-15" edge="1" parent="1" source="WqIeL6BKmyeu4yCINvwK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.419;entryY=0.809;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="438.01700000000005" y="374.78700000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-16" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="64" x="410" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DNS Cache&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="80" x="490" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Content Parser" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-23" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Content Storage DB" vertex="1">
+          <mxGeometry height="80" width="60" x="750" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-24" edge="1" parent="1" source="WqIeL6BKmyeu4yCINvwK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=41.25;entryPerimeter=0;" target="WqIeL6BKmyeu4yCINvwK-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
