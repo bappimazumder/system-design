@@ -112,6 +112,12 @@
         <mxCell id="WqIeL6BKmyeu4yCINvwK-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;br&gt;&lt;br&gt;Politeness of a webcrawler&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;1) Multiple thread e run kora&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;2) Ekta Web site jeno ekta Worker node jai&amp;nbsp;&lt;br&gt;3) thread e sleep add kora&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;4) Robot.txt ke respect kora&lt;br&gt;- allow and disallow follow kora&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="115" width="300" x="150" y="662.5" as="geometry" />
         </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-38" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Black List DB" vertex="1">
+          <mxGeometry height="67.5" width="50" x="600" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="WqIeL6BKmyeu4yCINvwK-39" edge="1" parent="1" source="WqIeL6BKmyeu4yCINvwK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="WqIeL6BKmyeu4yCINvwK-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
