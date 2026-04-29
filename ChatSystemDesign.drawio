@@ -185,6 +185,21 @@
         <mxCell id="HQH3foOj0PnZHyx9Auc--59" parent="HQH3foOj0PnZHyx9Auc--46" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Media Url" vertex="1">
           <mxGeometry height="30" width="140" y="210" as="geometry" />
         </mxCell>
+        <mxCell id="HQH3foOj0PnZHyx9Auc--60" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Online&amp;nbsp;&lt;br&gt;Presence&amp;nbsp;&lt;br&gt;Service" vertex="1">
+          <mxGeometry height="80" width="80" x="520" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="HQH3foOj0PnZHyx9Auc--61" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="DB" vertex="1">
+          <mxGeometry height="70" width="60" x="660" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="HQH3foOj0PnZHyx9Auc--62" edge="1" parent="1" source="HQH3foOj0PnZHyx9Auc--60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="HQH3foOj0PnZHyx9Auc--61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQH3foOj0PnZHyx9Auc--63" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Push Notificaton Service" vertex="1">
+          <mxGeometry height="80" width="80" x="650" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="HQH3foOj0PnZHyx9Auc--64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="For Offline user&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="640" y="1170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
