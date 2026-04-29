@@ -1,0 +1,35 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="3ATuJxxzuiHgp-YWyr6O">
+    <mxGraphModel dx="1030" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vDnc6QM3t7NdxVrkiEKP-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Requirements&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Q1)&amp;nbsp; Is it a web app or mobile app?&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- web and mobile&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Q2) How many user ?&amp;nbsp; - 10M DAU&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Q3) Group chat or one to one chat? - Both and One to one&lt;br&gt;Q4) Text chat or voice? - text chat&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="380" x="50" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vDnc6QM3t7NdxVrkiEKP-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Design a Chat System like whatsapp/facebook" vertex="1">
+          <mxGeometry height="30" width="300" x="70" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vDnc6QM3t7NdxVrkiEKP-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Chat Server&lt;br&gt;Receive Message&lt;br&gt;Relay Mesasge" vertex="1">
+          <mxGeometry height="100" width="100" x="340" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vDnc6QM3t7NdxVrkiEKP-5" edge="1" parent="1" source="vDnc6QM3t7NdxVrkiEKP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vDnc6QM3t7NdxVrkiEKP-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="205" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="vDnc6QM3t7NdxVrkiEKP-7" edge="1" parent="1" source="vDnc6QM3t7NdxVrkiEKP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vDnc6QM3t7NdxVrkiEKP-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="570" y="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
